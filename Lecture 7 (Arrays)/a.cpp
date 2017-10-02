@@ -16,12 +16,22 @@ int main() {
 
 	int a1 = a, b1 = b;
 	int gcd;
+
 	while (a1 > 0 && b1 > 0) {
 		if (a1 > b1)
 			a1 %= b1;
 		else
 			b1 %= a1;
 	}
+	/*
+	for (int i = min(a, b); i >= 1; i--) {
+		if (a % i == 0 && b % i == 0) {
+			gcd = i;
+			break;
+		}
+	}
+	*/
+
 	gcd = a1 + b1;
 
 	// a = 24, b = 32, c = 16
