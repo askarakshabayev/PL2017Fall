@@ -1,3 +1,28 @@
+4
+1 2 3 4
+5
+2 4 8 9 1
+
+11
+Astana 45
+Almaty 100
+Kostanay 56
+Astana 10
+Kostanay 89
+Almaty 34
+Almaty 12
+Astana 32
+Karaganda 4
+Kostanay 5
+Karaganda 90
+
+
+a["Astana"] = 55
+a['Almaty'] = 100
+A['Kostanay'] = 56
+
+
+
 10
 12 34 34 43 232 4 232 43 5 32
 

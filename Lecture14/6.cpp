@@ -16,7 +16,9 @@ int main() {
 
 	set<int>::iterator it;
 
-	for (it = a.begin(); it != a.end(); it++)
-		cout << (*it) << " ";
+	if (a.find(8) != a.end()) {
+		cout << "YES";
+	} else 
+		cout << "NO";
 	return 0;
 }
